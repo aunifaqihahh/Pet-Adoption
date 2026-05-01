@@ -1,16 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package groupasg;
-
-/**
- *
- * @author aunif
- */
 public class Cat extends Pet {
-    private boolean indoor;
-  
     public Cat(String name, int age, String breed, boolean indoor){
      super(name, breed, age);
      this.indoor = indoor;
@@ -29,4 +17,6 @@ public class Cat extends Pet {
         this.indoor = indoor;
     }
     
+}
+
 }
